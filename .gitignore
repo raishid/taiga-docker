@@ -3,3 +3,4 @@ static-data
 penpot_assets_data/
 penpot_postgres_data/
 taiga-db-data/
+.env
