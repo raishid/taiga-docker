@@ -43,6 +43,10 @@ services:
       RABBITMQ_PASS: "${RABBITMQ_PASS}"
       # Telemetry settings
       ENABLE_TELEMETRY: "${ENABLE_TELEMETRY}"
+      ENABLE_GITHUB_AUTH: "${ENABLE_GITHUB_AUTH}"
+      GITHUB_API_CLIENT_ID: "${GITHUB_API_CLIENT_ID}"
+      GITHUB_API_CLIENT_SECRET: "${GITHUB_API_CLIENT_SECRET}"
+      PUBLIC_REGISTER_ENABLED: "${PUBLIC_REGISTER_ENABLED}"
     volumes: 
       - taiga-static-data:/taiga-back/static
       - taiga-media-data:/taiga-back/media
@@ -83,6 +87,10 @@ services:
       RABBITMQ_PASS: "${RABBITMQ_PASS}"
       # Telemetry settings
       ENABLE_TELEMETRY: "${ENABLE_TELEMETRY}"
+      ENABLE_GITHUB_AUTH: "${ENABLE_GITHUB_AUTH}"
+      GITHUB_API_CLIENT_ID: "${GITHUB_API_CLIENT_ID}"
+      GITHUB_API_CLIENT_SECRET: "${GITHUB_API_CLIENT_SECRET}"
+      PUBLIC_REGISTER_ENABLED: "${PUBLIC_REGISTER_ENABLED}"
     volumes: 
       - taiga-static-data:/taiga-back/static
       - taiga-media-data:/taiga-back/media
